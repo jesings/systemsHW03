@@ -4,7 +4,7 @@
 int main(){
     int myArray[10];
     srand(time(NULL));
-    printf("Array #0");
+    printf("Array #0:\n");
     for(int i = 0;i<10;i++){
         myArray[i] = rand();
     	printf("%d, ",myArray[i]);
@@ -17,7 +17,5 @@ int main(){
         printf("%d, ",*(myArray2+i));
     }
     printf("\n");
-
-    
     return 0;
 }
