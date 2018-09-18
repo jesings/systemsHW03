@@ -11,7 +11,7 @@ int main(){
     }
     printf("\n");
     int myArray2[10];
-    printf("Array #1");
+    printf("Array #1:\n");
     for(int i = 0;i<10;i++){
         *(myArray2+i) = rand();
     	printf("Element #%d, value%d \n ",i,*(myArray2+i));
